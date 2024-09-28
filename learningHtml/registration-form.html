@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/submit-form" method="post">
+        <label for="username">Username (4 - 8 characters):</label>
+        <input type="text" required minlength="4" maxlength="8" 
+        placeholder="username">
+        <label for="password">Password</label>
+        <input type="password" required minlength="8" placeholder="password">
+        <label for="email">Email</label>
+        <input type="email" required placeholder="email@gmail.com">
+        <label for="age">Age</label>
+        <input type="number" minlength="18" maxlength="27" placeholder="age">
+        <label for="terms of service">Terms of Service</label>
+        <input type="checkbox" required>
+        <button type="button">Submit</button>
+    </form>
+</body>
+</html>
